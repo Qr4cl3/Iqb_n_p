@@ -61,6 +61,7 @@ def get_grover_circuit(n):
 class GroverBenchmarks:
     params = ([0, 1, 2, 3],[2,5,7])
     param_names = ['op_level','n_qubits']
+    timeout = 1800
 
     def setup(self, _, n_qubits):
         self.backend = FakeMelbourne()
