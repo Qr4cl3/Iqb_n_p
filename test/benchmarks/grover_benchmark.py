@@ -59,7 +59,7 @@ def get_grover_circuit(n):
 
 
 class GroverBenchmarks:
-    params = ([0, 1, 2, 3],[2,5,7])
+    params = ([0, 1, 2, 3],[2,3,4,5])
     param_names = ['op_level','n_qubits']
     timeout = 1800
 
